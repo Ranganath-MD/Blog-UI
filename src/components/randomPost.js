@@ -16,7 +16,7 @@ class RandomPost extends React.Component{
 
     componentDidMount() {
         this.setState({ pending: true})
-        const id = Math.round((Math.random()) * 10)
+        var id = Math.round((Math.random()) * 10)
         if (id === 0) {
             id=1
         }
